@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Photography</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        header {
+            background: #1f4e79;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background: #163a5c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background: #1f4e79;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #163a5c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #1f4e79;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: #eef5fb;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #1f4e79;
+        }
+
+        footer {
+            background: #163a5c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Wildlife Photography</h1>
+            <p>Exploring and Capturing the Beauty of Wildlife</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#techniques">Techniques</a>
+        <a href="#resources">Resources</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="container">
+
+        <section id="introduction">
+            <h2>Introduction to Wildlife Photography</h2>
+
+            <p>
+                Wildlife photography is the art of capturing animals and their
+                natural surroundings through photography. It requires patience,
+                observation and knowledge of animal behaviour.
+            </p>
+
+            <p>
+                Wildlife photographers try to capture natural moments while
+                respecting animals and their habitats.
+            </p>
+        </section>
+
+        <section id="techniques">
+            <h2>Wildlife Photography Techniques</h2>
+
+            <div class="card">
+                <h3>Patience</h3>
+                <p>
+                    Wildlife photography requires patience because animals
+                    cannot be controlled or directed like human subjects.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Observation</h3>
+                <p>
+                    Observing animal behaviour helps photographers predict
+                    movements and capture interesting moments.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Composition</h3>
+                <p>
+                    Good composition helps create balanced and attractive
+                    wildlife photographs.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Lighting</h3>
+                <p>
+                    Understanding natural light is important for capturing
+                    clear and detailed photographs.
+                </p>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Wildlife Resources</h2>
+
+            <ul>
+                <li>Wildlife photography books</li>
+                <li>Nature photography tutorials</li>
+                <li>Wildlife documentaries</li>
+                <li>National parks and wildlife sanctuaries</li>
+                <li>Photography communities</li>
+            </ul>
+        </section>
+
+        <section id="subjects">
+            <h2>Wildlife Photography Subjects</h2>
+
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Example</th>
+                    <th>Photography Focus</th>
+                </tr>
+
+                <tr>
+                    <td>Mammals</td>
+                    <td>Tiger</td>
+                    <td>Animal behaviour</td>
+                </tr>
+
+                <tr>
+                    <td>Birds</td>
+                    <td>Eagle</td>
+                    <td>Flight and movement</td>
+                </tr>
+
+                <tr>
+                    <td>Reptiles</td>
+                    <td>Snake</td>
+                    <td>Details and patterns</td>
+                </tr>
+
+                <tr>
+                    <td>Insects</td>
+                    <td>Butterfly</td>
+                    <td>Macro photography</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Photography</h2>
+
+            <p>
+                Wildlife photography allows photographers to document animals,
+                landscapes and natural behaviour.
+            </p>
+
+            <button onclick="showMessage()">
+                Explore Wildlife Photography
+            </button>
+
+            <p id="message"></p>
+        </section>
+
+        <section>
+            <h2>Audio and Video</h2>
+
+            <h3>Wildlife Audio</h3>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Wildlife Video</h3>
+
+            <video width="100%" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <section>
+            <h2>Featured Wildlife Species</h2>
+
+            <div class="card">
+                <h3>Tiger</h3>
+                <p>
+                    The tiger is one of the most well-known subjects in
+                    wildlife photography.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Elephant</h3>
+                <p>
+                    Elephants provide opportunities to photograph social
+                    behaviour and natural interactions.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Eagle</h3>
+                <p>
+                    Eagles are excellent subjects for action and bird
+                    photography.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact the Photographer</h2>
+
+            <form onsubmit="submitForm(event)">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" required>
+
+                <label for="messageBox">Message:</label>
+                <textarea id="messageBox" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Wildlife Photography Tips</h2>
+
+            <ol>
+                <li>Be patient and observe wildlife carefully.</li>
+                <li>Maintain a safe distance from animals.</li>
+                <li>Learn about animal behaviour.</li>
+                <li>Use appropriate photography equipment.</li>
+                <li>Respect wildlife and natural habitats.</li>
+                <li>Avoid disturbing animals while photographing them.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>About the Photographer</h2>
+
+            <p>
+                A wildlife photographer observes nature and captures wildlife
+                moments while respecting animals and their environment.
+            </p>
+
+            <p>
+                Wildlife photography combines photography skills,
+                creativity, patience and knowledge of nature.
+            </p>
+        </section>
+
+        <section>
+            <h2>Wildlife Conservation</h2>
+
+            <p>
+                Wildlife photography can help create awareness about animals,
+                forests and conservation.
+            </p>
+
+            <p>
+                Photographers can use their work to encourage people to
+                understand and protect wildlife.
+            </p>
+        </section>
+
+        <section>
+            <h2>Wildlife Photography Equipment</h2>
+
+            <table>
+                <tr>
+                    <th>Equipment</th>
+                    <th>Purpose</th>
+                </tr>
+
+                <tr>
+                    <td>Camera</td>
+                    <td>Capturing wildlife photographs</td>
+                </tr>
+
+                <tr>
+                    <td>Telephoto Lens</td>
+                    <td>Photographing distant animals</td>
+                </tr>
+
+                <tr>
+                    <td>Tripod</td>
+                    <td>Providing camera stability</td>
+                </tr>
+
+                <tr>
+                    <td>Memory Card</td>
+                    <td>Storing photographs and videos</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Wildlife Photography Ethics</h2>
+
+            <ul>
+                <li>Do not disturb animals.</li>
+                <li>Respect wildlife habitats.</li>
+                <li>Maintain a safe distance.</li>
+                <li>Do not feed wild animals for photographs.</li>
+                <li>Follow the rules of wildlife reserves and parks.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Photography Philosophy</h2>
+
+            <p>
+                The goal of wildlife photography is not only to create
+                beautiful photographs but also to appreciate nature and
+                promote respect for wildlife.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wildlife Photography. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Welcome to the world of wildlife photography!";
+        }
+
+        function submitForm(event) {
+            event.preventDefault();
+
+            alert("Thank you for contacting the photographer!");
+
+            document.querySelector("form").reset();
+        }
+
+    </script>
+
+</body>
+</html>
